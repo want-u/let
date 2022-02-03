@@ -13,7 +13,7 @@ services:
       - discovery.type=single-node    #单节点设置
       - bootstrap.memory_lock=true    #锁住内存 提高性能
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"     #设置启动内存大小 默认内存/最大内存
-      - TAKE_FILE_OWNERSHIP=true # 就是这货 volumes 挂载权限问题
+      - TAKE_FILE_OWNERSHIP=true      # 就是这货 volumes 挂载权限问题
     ulimits:
       memlock:
         soft: -1
@@ -66,5 +66,4 @@ services:
       - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml
       - ./filebeat/modules.d/nginx.yml:/usr/share/filebeat/modules.d/nginx.yml
       - ./logs:/var/elk/logs         #同时配置挂载需要扫描得日志目录，因为扫描的是filebeat容器内的文件路径
-      - /var/lib/docker/volumes/compose_lnmp_nginx-log/_data:/var/log/nginx
-
+      - /var/lib/docker/volumes/lnmp_nginx-log/_data:/var/log/nginx
