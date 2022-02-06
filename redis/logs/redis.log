@@ -1,0 +1,79 @@
+1:C 06 Feb 12:02:10.678 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 06 Feb 12:02:10.678 # Redis version=4.0.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 06 Feb 12:02:10.678 # Configuration loaded
+1:M 06 Feb 12:02:10.679 * Running mode=standalone, port=6379.
+1:M 06 Feb 12:02:10.679 # Server initialized
+1:M 06 Feb 12:02:10.679 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 06 Feb 12:02:10.679 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 06 Feb 12:02:10.679 * Ready to accept connections
+1:M 06 Feb 12:02:10.679 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:02:15.696 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:02:20.712 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:02:25.730 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:02:30.744 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:02:35.767 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:02:40.792 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:02:45.814 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:02:50.835 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:02:55.850 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:03:00.866 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:03:05.884 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:03:10.906 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:03:15.927 - 0 clients connected (0 slaves), 765592 bytes in use
+1:signal-handler (1644148996) Received SIGTERM scheduling shutdown...
+1:M 06 Feb 12:03:16.228 # User requested shutdown...
+1:M 06 Feb 12:03:16.228 * Calling fsync() on the AOF file.
+1:M 06 Feb 12:03:16.230 * Saving the final RDB snapshot before exiting.
+1:M 06 Feb 12:03:16.233 * DB saved on disk
+1:M 06 Feb 12:03:16.233 * Removing the pid file.
+1:M 06 Feb 12:03:16.234 # Redis is now ready to exit, bye bye...
+1:C 06 Feb 12:03:30.449 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 06 Feb 12:03:30.449 # Redis version=4.0.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 06 Feb 12:03:30.449 # Configuration loaded
+1:M 06 Feb 12:03:30.450 * Running mode=standalone, port=6379.
+1:M 06 Feb 12:03:30.450 # Server initialized
+1:M 06 Feb 12:03:30.450 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 06 Feb 12:03:30.450 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 06 Feb 12:03:30.450 * Ready to accept connections
+1:M 06 Feb 12:03:30.450 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:03:35.474 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:03:40.496 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:03:45.511 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:03:50.525 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:03:55.538 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:04:00.554 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:04:05.571 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:04:05.809 - Accepted 127.0.0.1:33226
+1:M 06 Feb 12:04:10.593 - 1 clients connected (0 slaves), 786464 bytes in use
+1:M 06 Feb 12:04:15.611 - 1 clients connected (0 slaves), 786464 bytes in use
+1:M 06 Feb 12:04:20.626 - 1 clients connected (0 slaves), 786464 bytes in use
+1:M 06 Feb 12:04:25.646 - 1 clients connected (0 slaves), 786464 bytes in use
+1:M 06 Feb 12:04:30.665 - 1 clients connected (0 slaves), 786464 bytes in use
+1:M 06 Feb 12:04:30.741 - Client closed connection
+1:M 06 Feb 12:04:34.626 - Accepted 127.0.0.1:33228
+1:M 06 Feb 12:04:35.684 - 1 clients connected (0 slaves), 786456 bytes in use
+1:M 06 Feb 12:04:39.245 - Client closed connection
+1:M 06 Feb 12:04:40.707 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:04:45.720 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:04:50.733 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:04:55.749 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:00.763 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:05.780 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:10.794 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:15.813 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:20.831 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:25.845 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:30.860 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:35.875 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:40.890 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:45.905 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:50.919 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:05:55.935 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:06:00.954 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:06:05.976 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:06:11.000 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:06:16.020 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:06:21.045 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:06:26.065 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:06:31.086 - 0 clients connected (0 slaves), 765592 bytes in use
+1:M 06 Feb 12:06:36.109 - 0 clients connected (0 slaves), 765592 bytes in use
