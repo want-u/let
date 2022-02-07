@@ -1,4 +1,4 @@
 elk/elasticsearch/logs/
 elk/elasticsearch/data/
 *.log
-
+*.aof
